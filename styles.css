@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+/*header*/
+header {
+    text-align: center;
+    color: white;
+    background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/various-beautiful-green-plants-in-pots-on-white-royalty-free-image-931824676-1565950537.jpg?crop=0.825xw:0.620xh;0.0785xw,0.132xh&resize=1200:*");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    width: 100%;
+    height: 100vh;
+    
+  } 
+
+  a {
+    color: rgb(218, 247, 166);
+    text-decoration: none;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 30px;
+    text-shadow: rgb(218, 247, 166) ;
+    text-transform: uppercase;
+  }
+  
+  a:hover {
+    color: rgb(191, 241, 32);
+  }
+  h1 {
+    font-size: 70px;
+    font-weight: 600;
+    color: #000;;
+    font-family: 'Zen Maru Gothic', sans-serif;
+  }
+  ul {
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
+  }
+  li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+  }
+  
+/* PLANTS */
+h2 {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Zen Maru Gothic', sans-serif;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+img {
+  width: 302px;
+  height: 349px;
+}
+.div-item {
+  vertical-align: top;
+  text-align: center;
+  width: 250px;
+}
+
+span {
+  display: block;
+}
+  article {
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    font-family: 'Zen Maru Gothic', sans-serif;
+  }
+/* PLANTS GUIDE */
+
+.guide-img {
+ display: flex;
+ justify-content: center;
+}
+.guide-img img {
+  height: 500px;
+  width: 550px;
+}
+
+footer {
+  padding: 50px;
+  background-color: #2A2B25;
+}
+footer p {
+  color:aliceblue;
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+/* MEDIA QUERIES */
+  @media (max-width: 500px) {
+    h1 {
+      font-size: 36px;
+      padding: 5px;
+    }
+    li {
+      padding: 5px;
+      display: block;
+    }
+    .parent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  img {
+    width: 270px;
+    height: 320px;
+  }
+  .guide-img img {
+    width: 270px;
+    height: 320px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+
+}
